@@ -1,0 +1,43 @@
+#main-doc {
+    font-size: 18px;
+}
+
+#navbar {
+    border: 2px solid black;
+    float: left;
+    width: 15%;
+    position: fixed;
+}
+
+#navbar header {
+    text-align: center;
+    border-bottom: 2px solid black;
+    padding: 30px 0 30px 0;
+    font-size: 28px;
+}
+
+#navbar a {
+    display: flex;
+    border-bottom: 2px solid black;
+    color: cyan;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 20px;
+}
+
+#navbar a:last-of-type {
+    border-bottom: none;
+}
+
+.main-section {
+    margin-left: 16%;
+}
+
+.main-section header {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.main-section:first-child {
+    color: red;
+}

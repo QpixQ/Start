@@ -1,0 +1,145 @@
+* {
+    background-color: #e0e0e0;
+    color: #4a4a4a;
+    margin: 0;
+}
+
+main {
+    padding: 0 4%;
+}
+
+header h1 {
+    font-size: 120px;
+    text-align: center;
+    color: #282828;
+    text-transform: uppercase;
+}
+
+header p {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+#up-nav {
+    background-color: #2d2928;
+    padding: 25px 4%;
+}
+
+#up-nav a {
+    text-decoration: none;
+    color: #c4c4c4;
+}
+
+#low-nav {
+    margin: 0 4%;
+    text-transform: uppercase;
+    font-size: 14px;
+    border-top: 5px double #999999;
+    border-bottom: 5px double #999999;
+    color: #333333;
+}
+
+#low-nav a:hover {
+    color: #999999;
+}
+
+#first-section {
+    margin-top: 1.5%;
+    display: flex;
+}
+
+.main-photo {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding-right: 2%;
+}
+
+.main-photo h3 {
+    text-align: left;
+    font-size: 24px;
+}
+
+.left-photos {
+    flex: 1;
+    height: 100vh;
+}
+
+.left-photos img {
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin-right: 2%;
+    border: 6px double #999999;
+}
+
+.left-photos p {
+    padding: 0 2% 5% 0
+}
+
+#second-section {
+    border-top: 5px double #999999;
+}
+
+.second-lefts-photos {
+    padding-top: 1.5%;
+    width: 60%;
+}
+
+.second-lefts-photos img {
+    width: 60px;
+    border: 6px double #999999;
+}
+
+.second-lefts-photos {
+    display: flex;
+}
+
+.first-subsection {
+    flex: 1;
+}
+
+.first-subsection a {
+    color: red;
+    text-transform: uppercase;
+    text-align: right;
+}
+
+.first-subsection img{
+    float: left;
+    margin-right: 2%;
+}
+
+.first-subsection p {
+    padding-left: 2%;
+    max-height: 40%;
+}
+
+.first-subsection p a {
+    position: relative;
+    left: 60%;
+}
+
+.second-subsection {
+    flex: 1;
+}
+
+.second-subsection img {
+    float: left;
+        margin-right: 2%;
+}
+
+.second-subsection p {
+    padding: 0 2% 0 0;
+}
+
+.second-subsection a {
+    text-transform: uppercase;
+    color: red;
+
+}
+
+.photo-one a{
+    text-align: end;
+}

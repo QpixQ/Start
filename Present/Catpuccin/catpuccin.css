@@ -1,0 +1,6 @@
+/* latte */
+
+@import url("https://catppuccin.github.io/youtubemusic/src/latte.css");
+html:not(.style-scope) {
+    --ctp-accent: #f5e0dc !important;
+}

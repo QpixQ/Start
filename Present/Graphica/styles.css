@@ -1,0 +1,144 @@
+* {
+    background-color: ivory;
+    font-size: large;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 15%;
+}
+
+.nav-bar {
+    display: flex;
+}
+
+.nav-bar a {
+    padding: 0 10%;
+    text-decoration: none;
+    color: rgba(184, 184, 188, 0.7);
+}
+
+.nav-bar a:hover {
+    color: black;
+}
+
+.text-on-the-top {
+    font-weight: bold;
+    font-size: 30px;
+    position: relative;
+    width: 30%;
+    left: 37%;
+    text-align: center;
+    color: #231f20;
+    height: 90vh;
+}
+
+picture img {
+margin: 0;
+padding: 0;
+}
+
+.grid-pictures {
+    display: grid;
+    padding-left: 4%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 10px;
+
+}
+
+
+.first-photo{
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    width: auto;
+}
+
+.first-photoЖ:hover {
+    box-shadow: ;
+}
+
+.second-photo {
+    grid-column: 2 / 4;
+    grid-row: 1 / 2;
+    width: auto;
+}
+
+.third-photo {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+}
+
+.fouth-photo {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+
+.fifth-photo {
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+}
+
+.sixth-photo {
+    grid-column: 1 / 2;
+    grid-row: 3 / 5;
+}
+
+.seventh-photo {
+    grid-column: 1 / 2;
+    grid-row: 3 / 5;
+}
+
+.eighth-photo {
+    grid-column: 3 / 4;
+    grid-row: 3 / 4;
+}
+
+.nineth-photo {
+    grid-column: 2 / 4;
+    grid-row: 4 / 5;
+    width: auto;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+#social {
+    display: flex;
+    flex-direction: column;
+}
+
+#social > a {
+    padding: 10px 0;
+    text-decoration: none;
+    color: #8b8b8c;
+}
+
+#feedback {
+    display: flex;
+    flex-direction: column;
+}
+
+#feedback > input:first-of-type {
+    padding: 15px;
+    margin: 20px 0;
+}
+
+#feedback input:last-of-type {
+    padding: 15px 150px 50px 15px;
+}
+
+#feedback button {
+    margin: 10px 0 0 0 ;
+    padding: 5px;
+    background-color: black;
+    color: linen;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 30%;
+    border: none;
+}

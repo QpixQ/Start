@@ -1,0 +1,13 @@
+#navbar {
+    position:fixed;
+}
+
+#welcome_section {
+    height: 100vh;
+}
+
+@media only screen and (max-width: 1240px) {
+    :root {
+        background-color: linen;
+    }
+}
